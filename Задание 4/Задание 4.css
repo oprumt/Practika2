@@ -1,0 +1,25 @@
+
+.container {
+    height: 300px;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.box {
+    padding: 15px;
+    color: white;
+    width: fit-content;
+}
+
+.top { background: #e57373; }
+.center {
+    background: #ffd54f;
+    align-self: center;
+}
+.bottom {
+    background: #4db6ac;
+    align-self: flex-end;
+}
