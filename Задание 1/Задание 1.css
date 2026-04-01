@@ -1,12 +1,11 @@
 .container {
-    display: flex;
-    gap: 10px;
+  display: flex;
 }
 
 .box {
-    flex: 1;
-    background: #d9d4df;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #bbb;
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #e5e3e8;
+  text-align: center;
 }
